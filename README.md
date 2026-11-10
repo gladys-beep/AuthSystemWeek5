@@ -142,10 +142,14 @@ Pengujian dilakukan secara langsung pada aplikasi menggunakan smartphone melalui
 | 10 | Membuka keyboard pada kolom Email | Form tetap terlihat ketika keyboard muncul | Berhasil |
 
 **Bukti pengujian:**
-- <img width="738" height="1600" alt="validasiemail" src="https://github.com/user-attachments/assets/d9e45bff-0c14-4865-98b9-9d7982b76cf6" /> – Bukti validasi email tidak valid.
-- `screenshots/login.png` – Bukti notifikasi Login Berhasil.
-- `screenshots/register.png` – Bukti notifikasi Registrasi Berhasil.
-- `screenshots/keyboard.png` – Bukti keyboard behavior.
+- Bukti Validasi email tidak valid
+  <img width="738" height="1600" alt="validasiemail" src="https://github.com/user-attachments/assets/d9e45bff-0c14-4865-98b9-9d7982b76cf6" /> – 
+- Bukti notifikasi Login Berhasil
+  <img width="738" height="1600" alt="login" src="https://github.com/user-attachments/assets/cd1fde27-b853-4f46-af6c-5f434956b05d" />
+- Bukti notifikasi Registrasi Berhasil
+  <img width="738" height="1600" alt="registrasi" src="https://github.com/user-attachments/assets/b42b0973-0797-484e-bf13-b98f0427e247" />
+- Bukti keyboard behavior
+  <img width="738" height="1600" alt="keyboard" src="https://github.com/user-attachments/assets/ced887c7-6e0d-4cae-9a7c-226e28fb9b1b" />
 
 ## 8. Kendala dan Solusi (Challenges & Solutions)
 
@@ -187,16 +191,4 @@ Pengujian dilakukan secara langsung pada aplikasi menggunakan smartphone melalui
 ---
 
 **AuthSystemWeek5 – Login and Registration Application**
-
-
-
-
-<img width="738" height="1600" alt="login" src="https://github.com/user-attachments/assets/cd1fde27-b853-4f46-af6c-5f434956b05d" />
-
-<img width="738" height="1600" alt="registrasi" src="https://github.com/user-attachments/assets/b42b0973-0797-484e-bf13-b98f0427e247" />
-
-<img width="738" height="1600" alt="validasiemail" src="https://github.com/user-attachments/assets/d9e45bff-0c14-4865-98b9-9d7982b76cf6" />
-
-<img width="738" height="1600" alt="keyboard" src="https://github.com/user-attachments/assets/ced887c7-6e0d-4cae-9a7c-226e28fb9b1b" />
-
 
