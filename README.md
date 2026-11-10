@@ -104,25 +104,25 @@ Scan QR Code menggunakan Expo Go pada smartphone untuk menjalankan aplikasi.
 
 Halaman Login digunakan untuk memasukkan email dan password. Apabila input memenuhi ketentuan aplikasi, pengguna dapat menekan tombol Masuk.
 
-Halaman Login<img width="738" height="1600" alt="login" src="https://github.com/user-attachments/assets/cd1fde27-b853-4f46-af6c-5f434956b05d" />
+<img width="738" height="1600" alt="login" src="https://github.com/user-attachments/assets/cd1fde27-b853-4f46-af6c-5f434956b05d" />
 
 ### B. Halaman Registrasi
 
 Halaman Registrasi digunakan untuk melakukan pendaftaran. Setelah proses registrasi dijalankan, aplikasi menampilkan notifikasi "Registrasi Berhasil!".
 
-![Halaman Registrasi](screenshots/register.png)
+<img width="738" height="1600" alt="registrasi" src="https://github.com/user-attachments/assets/b42b0973-0797-484e-bf13-b98f0427e247" />
 
 ### C. Validasi Email
 
 Validasi email dilakukan untuk memastikan format email yang dimasukkan sesuai dengan ketentuan. Jika format email tidak valid, aplikasi menampilkan pesan kesalahan dan mengubah border kolom email menjadi merah.
 
-![Validasi Email](screenshots/validation.png)
+<img width="738" height="1600" alt="validasiemail" src="https://github.com/user-attachments/assets/d9e45bff-0c14-4865-98b9-9d7982b76cf6" />
 
 ### D. Keyboard Behavior
 
 Pengujian keyboard behavior dilakukan untuk memastikan tampilan form tetap dapat diakses ketika keyboard smartphone muncul.
 
-![Keyboard Behavior](screenshots/keyboard.png)
+<img width="738" height="1600" alt="keyboard" src="https://github.com/user-attachments/assets/ced887c7-6e0d-4cae-9a7c-226e28fb9b1b" />
 
 ## 7. Hasil Pengujian (Test Results)
 
@@ -142,7 +142,7 @@ Pengujian dilakukan secara langsung pada aplikasi menggunakan smartphone melalui
 | 10 | Membuka keyboard pada kolom Email | Form tetap terlihat ketika keyboard muncul | Berhasil |
 
 **Bukti pengujian:**
-- `screenshots/validation.png` – Bukti validasi email tidak valid.
+- `<img width="738" height="1600" alt="validasiemail" src="https://github.com/user-attachments/assets/d9e45bff-0c14-4865-98b9-9d7982b76cf6" />` – Bukti validasi email tidak valid.
 - `screenshots/login.png` – Bukti notifikasi Login Berhasil.
 - `screenshots/register.png` – Bukti notifikasi Registrasi Berhasil.
 - `screenshots/keyboard.png` – Bukti keyboard behavior.
