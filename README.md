@@ -1,5 +1,8 @@
 #  AuthSystemWeek5 – Aplikasi Login dan Registrasi
 
+- Nama: Gladys Huang
+- NIM: 253303620001
+
 ## 1. Deskripsi Project
 
 AuthSystemWeek5 merupakan aplikasi autentikasi sederhana berbasis mobile yang dibuat menggunakan React Native dan Expo.
@@ -184,12 +187,6 @@ Pengujian dilakukan secara langsung pada aplikasi menggunakan smartphone melalui
 
 - **GitHub Repository:** https://github.com/gladys-beep/AuthSystemWeek5
 - **Expo Snack:** https://snack.expo.dev/@gladys_expo/build-login-and-register-system
-
-## 10. Identitas Pembuat
-
-- **Nama:** Gladys
-- **Nama Project:** AuthSystemWeek5
-- **Mata Kuliah/Tugas:** Authentication System – Week 5
 
 ---
 
