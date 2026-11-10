@@ -104,8 +104,7 @@ Scan QR Code menggunakan Expo Go pada smartphone untuk menjalankan aplikasi.
 
 Halaman Login digunakan untuk memasukkan email dan password. Apabila input memenuhi ketentuan aplikasi, pengguna dapat menekan tombol Masuk.
 
-Halaman Login
-<img width="738" height="1600" alt="login" src="https://github.com/user-attachments/assets/cd1fde27-b853-4f46-af6c-5f434956b05d" />
+Halaman Login<img width="738" height="1600" alt="login" src="https://github.com/user-attachments/assets/cd1fde27-b853-4f46-af6c-5f434956b05d" />
 
 ### B. Halaman Registrasi
 
