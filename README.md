@@ -143,11 +143,14 @@ Pengujian dilakukan secara langsung pada aplikasi menggunakan smartphone melalui
 
 **Bukti pengujian:**
 - Bukti Validasi email tidak valid
-  <img width="738" height="1600" alt="validasiemail" src="https://github.com/user-attachments/assets/d9e45bff-0c14-4865-98b9-9d7982b76cf6" /> – 
+  <img width="738" height="1600" alt="validasiemail" src="https://github.com/user-attachments/assets/d9e45bff-0c14-4865-98b9-9d7982b76cf6" />
+  
 - Bukti notifikasi Login Berhasil
   <img width="738" height="1600" alt="login" src="https://github.com/user-attachments/assets/cd1fde27-b853-4f46-af6c-5f434956b05d" />
+  
 - Bukti notifikasi Registrasi Berhasil
   <img width="738" height="1600" alt="registrasi" src="https://github.com/user-attachments/assets/b42b0973-0797-484e-bf13-b98f0427e247" />
+  
 - Bukti keyboard behavior
   <img width="738" height="1600" alt="keyboard" src="https://github.com/user-attachments/assets/ced887c7-6e0d-4cae-9a7c-226e28fb9b1b" />
 
@@ -180,7 +183,7 @@ Pengujian dilakukan secara langsung pada aplikasi menggunakan smartphone melalui
 ## 9. Link Project
 
 - **GitHub Repository:** https://github.com/gladys-beep/AuthSystemWeek5
-- **Expo Snack:** [Masukkan link Expo Snack di sini]
+- **Expo Snack:** https://snack.expo.dev/@gladys_expo/build-login-and-register-system
 
 ## 10. Identitas Pembuat
 
