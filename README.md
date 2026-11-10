@@ -142,7 +142,7 @@ Pengujian dilakukan secara langsung pada aplikasi menggunakan smartphone melalui
 | 10 | Membuka keyboard pada kolom Email | Form tetap terlihat ketika keyboard muncul | Berhasil |
 
 **Bukti pengujian:**
-- `<img width="738" height="1600" alt="validasiemail" src="https://github.com/user-attachments/assets/d9e45bff-0c14-4865-98b9-9d7982b76cf6" />` – Bukti validasi email tidak valid.
+- <img width="738" height="1600" alt="validasiemail" src="https://github.com/user-attachments/assets/d9e45bff-0c14-4865-98b9-9d7982b76cf6" /> – Bukti validasi email tidak valid.
 - `screenshots/login.png` – Bukti notifikasi Login Berhasil.
 - `screenshots/register.png` – Bukti notifikasi Registrasi Berhasil.
 - `screenshots/keyboard.png` – Bukti keyboard behavior.
