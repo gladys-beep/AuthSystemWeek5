@@ -188,6 +188,9 @@ Pengujian dilakukan secara langsung pada aplikasi menggunakan smartphone melalui
 - **GitHub Repository:** https://github.com/gladys-beep/AuthSystemWeek5
 - **Expo Snack:** https://snack.expo.dev/@gladys_expo/build-login-and-register-system
 
+## Link Google Docs TP12
+https://docs.google.com/document/d/1Qg_18agAUfsywRh94ZC9ws43GeUGcjsOfv94Af3BJVQ/edit?usp=sharing
+
 ---
 
 **AuthSystemWeek5 – Login and Registration Application**
