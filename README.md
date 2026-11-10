@@ -1,56 +1,189 @@
-# Welcome to your Expo app 👋
+#  AuthSystemWeek5 – Aplikasi Login dan Registrasi
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 1. Deskripsi Project
 
-## Get started
+AuthSystemWeek5 merupakan aplikasi autentikasi sederhana berbasis mobile yang dibuat menggunakan React Native dan Expo.
 
-1. Install dependencies
+Aplikasi ini memiliki dua halaman utama, yaitu Login dan Registrasi. Pengguna dapat memasukkan email dan password dengan validasi input untuk memastikan data yang dimasukkan sesuai dengan ketentuan.
 
-   ```bash
-   npm install
-   ```
+Project ini dibuat untuk memenuhi tugas praktikum Authentication System – Week 5.
 
-2. Start the app
+## 2. Fitur yang Diimplementasikan
 
-   ```bash
-   npx expo start
-   ```
+- [x] Halaman Login
+- [x] Halaman Registrasi
+- [x] Navigasi dari Login ke Registrasi
+- [x] Navigasi dari Registrasi ke Login
+- [x] Input email
+- [x] Input password
+- [x] Validasi format email
+- [x] Validasi password minimal 6 karakter
+- [x] Pesan error ketika format email tidak valid
+- [x] Perubahan warna border input ketika terjadi kesalahan
+- [x] Tombol Login nonaktif ketika input belum memenuhi ketentuan
+- [x] Notifikasi ketika Login berhasil
+- [x] Notifikasi ketika Registrasi berhasil
+- [x] Keyboard handling pada halaman Login dan Registrasi
+- [x] Tampilan form menggunakan komponen React Native
 
-In the output, you'll find options to open the app in a
+## 3. Teknologi yang Digunakan
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- React Native
+- Expo
+- JavaScript
+- TypeScript
+- React Hooks (useState)
+- React Native StyleSheet
+- Git dan GitHub
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 4. Struktur Folder Project
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```text
+AuthSystemWeek5/
+├── assets/
+├── components/
+│   ├── LoginForm.js
+│   ├── LoginScreen.js
+│   ├── RegisterScreen.js
+│   └── validators.js
+├── src/
+│   └── app/
+│       ├── _layout.tsx
+│       ├── _explore.tsx
+│       └── index.tsx
+├── app.json
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── README.md
 ```
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
+## 5. Cara Menjalankan Project
 
-### Other setup steps
+### Persiapan
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Pastikan perangkat sudah memiliki:
+- Node.js
+- npm
+- Visual Studio Code
+- Expo Go pada smartphone
 
-## Learn more
+### Langkah Instalasi
 
-To learn more about developing your project with Expo, look at the following resources:
+**1. Clone repository GitHub**
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+git clone https://github.com/gladys-beep/AuthSystemWeek5.git
+```
 
-## Join the community
+**2. Masuk ke folder project**
 
-Join our community of developers creating universal apps.
+```bash
+cd AuthSystemWeek5
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Jalankan aplikasi**
+
+```bash
+npx expo start
+```
+
+**5. Buka aplikasi**
+
+Scan QR Code menggunakan Expo Go pada smartphone untuk menjalankan aplikasi.
+
+## 6. Dokumentasi Screenshot Aplikasi
+
+### A. Halaman Login
+
+Halaman Login digunakan untuk memasukkan email dan password. Apabila input memenuhi ketentuan aplikasi, pengguna dapat menekan tombol Masuk.
+
+![Halaman Login](screenshots/login.png)
+
+### B. Halaman Registrasi
+
+Halaman Registrasi digunakan untuk melakukan pendaftaran. Setelah proses registrasi dijalankan, aplikasi menampilkan notifikasi "Registrasi Berhasil!".
+
+![Halaman Registrasi](screenshots/register.png)
+
+### C. Validasi Email
+
+Validasi email dilakukan untuk memastikan format email yang dimasukkan sesuai dengan ketentuan. Jika format email tidak valid, aplikasi menampilkan pesan kesalahan dan mengubah border kolom email menjadi merah.
+
+![Validasi Email](screenshots/validation.png)
+
+### D. Keyboard Behavior
+
+Pengujian keyboard behavior dilakukan untuk memastikan tampilan form tetap dapat diakses ketika keyboard smartphone muncul.
+
+![Keyboard Behavior](screenshots/keyboard.png)
+
+## 7. Hasil Pengujian (Test Results)
+
+Pengujian dilakukan secara langsung pada aplikasi menggunakan smartphone melalui Expo Go.
+
+| No. | Skenario Pengujian | Hasil Pengujian | Status |
+|---|---|---|---|
+| 1 | Membuka halaman Login | Halaman Login tampil | Berhasil |
+| 2 | Membuka halaman Registrasi | Halaman Registrasi tampil | Berhasil |
+| 3 | Navigasi Login ke Registrasi | Halaman Registrasi terbuka | Berhasil |
+| 4 | Navigasi Registrasi ke Login | Halaman Login terbuka | Berhasil |
+| 5 | Memasukkan email tidak valid | Pesan error muncul dan border berubah merah | Berhasil |
+| 6 | Memasukkan email valid | Format email diterima oleh validasi | Berhasil |
+| 7 | Mengisi form Login sesuai ketentuan | Tombol Masuk aktif | Berhasil |
+| 8 | Menjalankan proses Login | Notifikasi Login Berhasil muncul | Berhasil |
+| 9 | Menjalankan proses Registrasi | Notifikasi Registrasi Berhasil muncul | Berhasil |
+| 10 | Membuka keyboard pada kolom Email | Form tetap terlihat ketika keyboard muncul | Berhasil |
+
+**Bukti pengujian:**
+- `screenshots/validation.png` – Bukti validasi email tidak valid.
+- `screenshots/login.png` – Bukti notifikasi Login Berhasil.
+- `screenshots/register.png` – Bukti notifikasi Registrasi Berhasil.
+- `screenshots/keyboard.png` – Bukti keyboard behavior.
+
+## 8. Kendala dan Solusi (Challenges & Solutions)
+
+### 1. Masalah Import Path
+
+**Kendala:** Terjadi kesalahan saat memindahkan project dari VS Code ke Expo Snack karena perbedaan struktur folder dan alamat import.
+
+**Solusi:** Menyesuaikan relative import path agar sesuai dengan struktur folder pada Expo Snack.
+
+### 2. Navigasi Login dan Registrasi
+
+**Kendala:** Membuat perpindahan halaman antara Login dan Registrasi.
+
+**Solusi:** Menggunakan React Hook `useState` untuk mengatur halaman yang sedang ditampilkan.
+
+### 3. Validasi Input Email
+
+**Kendala:** Memastikan email yang dimasukkan pengguna memiliki format yang benar.
+
+**Solusi:** Membuat fungsi validasi pada file `validators.js` dan menampilkan pesan error ketika format email tidak sesuai.
+
+### 4. Keyboard Behavior
+
+**Kendala:** Memastikan form tetap dapat digunakan ketika keyboard smartphone muncul.
+
+**Solusi:** Menggunakan pengaturan komponen React Native untuk membantu menjaga tampilan form tetap dapat diakses saat keyboard terbuka.
+
+## 9. Link Project
+
+- **GitHub Repository:** https://github.com/gladys-beep/AuthSystemWeek5
+- **Expo Snack:** [Masukkan link Expo Snack di sini]
+
+## 10. Identitas Pembuat
+
+- **Nama:** Gladys
+- **Nama Project:** AuthSystemWeek5
+- **Mata Kuliah/Tugas:** Authentication System – Week 5
+
+---
+
+**AuthSystemWeek5 – Login and Registration Application**
