@@ -39,7 +39,7 @@ Project ini dibuat untuk memenuhi tugas praktikum Authentication System – Week
 ## 4. Struktur Folder Project
 
 ```text
-AuthSystemWeek5/
+Form5Demo/
 ├── assets/
 ├── components/
 │   ├── LoginForm.js
